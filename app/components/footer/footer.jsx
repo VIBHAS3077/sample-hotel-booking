@@ -17,7 +17,7 @@ export default function Footer() {
               rel='noreferrer'
               className='nav-link-footer pe-1'
             >
-              Gyanendra
+              Vibha
             </a>
             <CCircle className={styles.biCCircle} />
           </p>
