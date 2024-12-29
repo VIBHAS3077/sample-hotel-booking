@@ -1,83 +1,66 @@
-# Sample Video Generation AI Website <JavaScript/Next.JS>
+# Majestic Hotels - Hotel Booking Site
 
-This Next.js application generates videos based on client-provided queries. It is designed as a SaaS platform, allowing users to easily create engaging video content for various purposes such as marketing, education, or social media. The app uses the following technologies to provide a smooth user experience and high-quality video output:
+This Next.js application provides a comprehensive hotel booking platform with secure user authentication and reservation management. It enables users to browse available suites, make bookings, and manage their reservations through a personalized profile interface. The app uses the following technologies to provide a smooth user experience:
 
-1. NextJs Framework (JavaScript not TS)
-2. Clerk Authentication Service
-3. Spline 3D Model Asset
-4. Tailwind CSS and Shadcn/UI + Sonner
-5. Neon Database and Drizzle ORM for Saving files and management of user data
-6. Remotion Video to generate videos
-7. OpenAI, ElevenLabs, AssemblyAI, & HugginFace API for different services
-8. Framer Motion for better UX
+1. Next.js Framework (JavaScript not TS)
+2. Firebase Authentication
+3. Custom User Management System
+4. Responsive Design
+5. Real-time Booking Updates
+6. Google Fonts Integration
 
 ---
 
-## 🚀 Getting Started  
+## 🚀 Getting Started
 
-### Open Using Daytona  
+### Open Using Daytona
 
-1. **Install Daytona**: Follow the [Daytona installation guide](https://www.daytona.io/docs/installation/installation/).  
-2. **Create the Workspace**:  
-   ```bash  
-   daytona create https://github.com/ARYPROGRAMMER/sample-video-generation-website.git
-   ```  
+1. **Install Daytona**: Follow the [Daytona installation guide](https://www.daytona.io/docs/installation/installation/).
+
+2. **Create the Workspace**:
+   ```bash
+   daytona create [your-repository-url]
+   ```
+
 3. **Configure the env**:
    ```bash
    # Add the following environment variables to the .env file
-   NEXT_PUBLIC_DRIZZLE_DATABASE_URL=
-   NEXT_PUBLIC_DRIZZLE_DATABASE_URL=
-   NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
-   CLERK_SECRET_KEY=
-   NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
-   NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
-   NEXT_PUBLIC_ELEVEN_LABS_API_KEY=
    NEXT_PUBLIC_FIREBASE_API_KEY=
-   NEXT_PUBLIC_CAPTION_API=
-   NEXT_PUBLIC_OPENAI_API_KEY=
+   NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=
+   NEXT_PUBLIC_FIREBASE_PROJECT_ID=
+   NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=
+   NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=
+   NEXT_PUBLIC_FIREBASE_APP_ID=
+   ```
 
-4. **Start the Application**:  
-   ```bash  
-   npm --legacy-peer-deps i
+4. **Start the Application**:
+   ```bash
+   npm install
    npm run dev
-   ```  
+   ```
+
    The app will be running at [localhost:3000](http://localhost:3000)
    in remote session Linux
 
-5. **WorkSpace Id for Open Hands on (Optional)**:  
-   ```bash  
-   aryprogrammer-sample-vid-nmuit3803l
-   ```
 ---
 
-## Screenshots
+## ✨ Features
 
-<details>
-  <summary>View Screenshots</summary>
-  
-  <div align="center">
-    <img src="screenshots/image%20(1).png" alt="Screenshot 1" width="400px"/>
-    <img src="screenshots/image%20(2).png" alt="Screenshot 2" width="400px"/>
-    <img src="screenshots/image%20(3).png" alt="Screenshot 3" width="400px"/>
-    <img src="screenshots/image%20(4).png" alt="Screenshot 4" width="400px"/>
-    <img src="screenshots/image%20(5).png" alt="Screenshot 5" width="400px"/>
-    <img src="screenshots/image%20(6).png" alt="Screenshot 6" width="400px"/>
-    <img src="screenshots/image%20(7).png" alt="Screenshot 7" width="400px"/>
-    <img src="screenshots/image%20(8).png" alt="Screenshot 8" width="400px"/>
-    <img src="screenshots/image%20(9).png" alt="Screenshot 9" width="400px"/>
-    <img src="screenshots/image%20(10).png" alt="Screenshot 10" width="400px"/>
-    <img src="screenshots/image%20(11).png" alt="Screenshot 11" width="400px"/>
-    <img src="screenshots/image%20(12).png" alt="Screenshot 12" width="400px"/>
-  </div>
+- **Secure Authentication** - Powered by Firebase Auth
+- **Suite Booking System** - Easy-to-use booking interface
+- **User Profiles** - Personalized dashboard for managing reservations
+- **Real-time Updates** - Instant booking confirmation
+- **Responsive Design** - Optimized for all devices
+- **Custom Font Integration** - Using `next/font` with Google Fonts
 
-</details>
+---
 
-## ✨ Features  
+## Image Credits
 
-- **AI Video Generation** - Transform text to engaging videos
-- **Secure Authentication** - Powered by Clerk Auth
-- **Text-to-Speech** - High-quality voice synthesis with Eleven Labs
-- **Caption Generation** - Advanced audio processing with Assembly AI
-- **Modern UI** - Beautiful interface with shadcn/ui
-- **Database** - Robust data handling with Drizzle ORM
-- **AI Integration** - GPT-4 and Gemini 15 Flash
+Royalty-free images acknowledgments:
+- mrsiraphol: [Freepik Profile](https://www.freepik.com/author/mrsiraphol)
+- lifeforstock: [Freepik Profile](https://www.freepik.com/author/lifeforstock)
+- freepik: [Freepik Profile](https://www.freepik.com/author/freepik)
+- Xavier Coiffic: [Unsplash Profile](https://unsplash.com/es/@xaviercoiffic)
+- Benjamin Voros: [Unsplash Profile](https://unsplash.com/es/@vorosbenisop)
+- Microsoft Bing: [Bing Image Creator](https://www.bing.com/images/create)
