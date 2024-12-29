@@ -1,6 +1,6 @@
 # Majestic Hotels - Hotel Booking Site <JavaScript/Next.JS>
 
-This Next.js application provides a comprehensive hotel booking platform with secure user authentication and reservation management. It enables users to browse available suites, make bookings, and manage their reservations through a personalized profile interface. The app uses the following technologies to provide a smooth user experience:
+The app uses the following technologies to provide a smooth user experience:
 
 1. Next.js Framework (JavaScript not TS)
 2. Firebase Authentication
