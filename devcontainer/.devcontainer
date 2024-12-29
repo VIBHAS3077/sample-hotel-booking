@@ -1,0 +1,23 @@
+{
+  "name": "Next.js Video Generation AI App",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
+  "forwardPorts": [
+    3000
+  ],
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "javascript.suggest.autoImports": true,
+        "typescript.suggest.autoImports": true,
+        "editor.formatOnSave": true
+      },
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "eamodio.gitlens",
+        "formulahendry.auto-rename-tag"
+      ]
+    }
+  },
+  "postCreateCommand": "npm install --legacy-peer-deps"
+}
